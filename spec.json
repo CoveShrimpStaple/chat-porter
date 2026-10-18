@@ -1,0 +1,50 @@
+{
+    "name":  "chat-porter",
+    "logo":  "📤",
+    "exe":  "ChatPorter.exe",
+    "desc":  "Free, open-source chat history porter for Windows — move conversations between local AI apps intact. 100 MB portable, offline, MIT, no cloud.",
+    "topics":  [
+                   "chat-migration",
+                   "chat-history",
+                   "local-ai",
+                   "sillytavern",
+                   "open-webui",
+                   "ai-tools",
+                   "windows",
+                   "windows-10",
+                   "windows-11",
+                   "csharp",
+                   "dotnet",
+                   "json-format",
+                   "import-export",
+                   "markdown",
+                   "archive",
+                   "portable",
+                   "open-source",
+                   "mit-license"
+               ],
+    "features":  [
+                     "✅ **Format detection** — drop a SillyTavern, Open WebUI or KoboldCpp export and it recognizes the shape",
+                     "✅ **Cross-app conversion** — conversations converted to the target app\u0027s native format with roles intact",
+                     "✅ **Merge and split** — combine two exports into one archive or split a giant thread by date",
+                     "✅ **Metadata mapping** — character names, timestamps and system prompts carried over where the formats allow",
+                     "✅ **Markdown archive** — any conversation exportable as a readable .md file for backups",
+                     "✅ **Dry-run preview** — see exactly what will be imported before anything touches your app folder",
+                     "✅ **100 MB self-contained exe** — runtime bundled, portable, fully offline, MIT with SHA-256 releases"
+                 ],
+    "compare":  [
+                    "| Feature | **chat-porter** | Manual JSON editing | App exporters | Cloud chat viewers |",
+                    "|---|:---:|:---:|:---:|:---:|",
+                    "| Price | **Free, MIT** | Free | Built-in | Free accounts |",
+                    "| Open source | **Yes** | N/A | Partial | No |",
+                    "| Cross-app conversion | **Yes** | Painful | One direction | No",
+                    "| Conversation merge and split | **Yes** | No | No | No",
+                    "| Dry-run preview | **Yes** | No | No | No",
+                    "| Portable, no install | **Yes, 100 MB** | Editor | N/A | Browser"
+                ],
+    "faqQ":  "how to move chat history from SillyTavern to another local AI app?",
+    "faqA":  "Every app invents its own chat JSON, so moving a year of conversations means hand-editing files until something loads. chat-porter detects formats, converts roles and metadata, and previews the import before writing. It is a 100 MB portable exe, MIT, and the chats never leave the disk.",
+    "s1":  "Dark porter (#121418, indigo #6366F1): drop zone with a detected badge reading SillyTavern JSONL, target app dropdown set to Open WebUI, preview list of conversations.",
+    "s2":  "Mapping table: source fields left, target fields right, three auto-mapped rows in green, one manual choice dropdown for character card link.",
+    "s3":  "Merge tool: two archives selected with overlap warning count, split-by-date option, dry-run report panel, export button enabled."
+}
